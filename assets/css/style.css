@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../../Media/ceu2.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #008FA3;
+}
+#titulo01 {
+    color: #ffffff;
+    font-family: Montserrat;
+    text-align: center;
+    position: relative;
+    font-size: 3.5em;
+    margin-top: 1em;
+}
+#texto01 {
+    margin: 2%;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 1.4em;
+    font-style: bol;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#alterar{
+    position: fixed;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 1.1rem;
+    background-color: #ffffff;
+    padding: 1% 4%;
+    margin-left: 40%;
+    border: 0ch;
+    border-radius: 20px;
+    color: #008FA3;
+}
+#alterar:hover{
+    transform: scale(1.05);
+    transition: all 0.2s;
+    background-color: #004e58;
+    color: #ffffff;
+}
+
+#grama{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 32vh;
+    background-color: #245400;
+}
+#nome{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: large;
+    position: fixed;
+    padding-right: 10%;
+    margin-left: 60%;
+    margin-top: 3%;
+}
+#imagem{
+    position: absolute;
+    bottom: 0;
+    margin-left: 45%;
+    padding-bottom: 8%;
+}
